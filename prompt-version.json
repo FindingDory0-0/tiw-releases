@@ -1,6 +1,6 @@
 {
-  "version": "1.0.2",
-  "publishedAt": "2026-04-28T20:00:00+09:00",
+  "version": "1.0.3",
+  "publishedAt": "2026-04-28T21:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/system_prompt.txt",
-  "note": "OLD 기반으로 회귀 — 룰 단순화 + 검토필요/공백시간 필드만 추가 (LLM 직관 신뢰)"
+  "note": "보완 — 종료점 정의 명확화 (상대방 단순 감사 제외) + 이슈 보고 수신 케이스 명시"
 }
