@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "publishedAt": "2026-04-28T17:00:00+09:00",
+  "version": "1.0.1",
+  "publishedAt": "2026-04-28T19:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/system_prompt.txt",
-  "note": "분석 프롬프트 초기 버전 (앱 빌드 동봉본과 동일)"
+  "note": "담당자 문의 응대 / 시스템 이슈 보고 수신 / 30분 공백 처리 가이드 강화 — 자동 fetch 검증용"
 }
