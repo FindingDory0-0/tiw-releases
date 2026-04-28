@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "publishedAt": "2026-04-28T19:00:00+09:00",
+  "version": "1.0.2",
+  "publishedAt": "2026-04-28T20:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/system_prompt.txt",
-  "note": "담당자 문의 응대 / 시스템 이슈 보고 수신 / 30분 공백 처리 가이드 강화 — 자동 fetch 검증용"
+  "note": "OLD 기반으로 회귀 — 룰 단순화 + 검토필요/공백시간 필드만 추가 (LLM 직관 신뢰)"
 }
