@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "publishedAt": "2026-04-28T22:00:00+09:00",
+  "version": "1.0.5",
+  "publishedAt": "2026-04-28T23:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/system_prompt.txt",
-  "note": "종료점 룰 단순화 — 원본 (첫~마지막) 유지 + 단순 감사 응답만 제외 한 줄"
+  "note": "공백 단일 길이 상한 (60분) 룰 추가 — future-time 안내 활용 또는 60분 cap 으로 비현실적 작업시간 방지"
 }
