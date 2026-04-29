@@ -1,6 +1,6 @@
 {
-  "version": "1.0.7",
-  "publishedAt": "2026-04-29T00:00:00+09:00",
+  "version": "1.0.8",
+  "publishedAt": "2026-04-29T15:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/system_prompt.txt",
-  "note": "상세내용에서 산출 근거/시간 계산 메모 제거 — ITSMS 등록 시 깔끔하게 표시"
+  "note": "메신저 외 처리(전화/통화) 케이스 검토필요로 추출 + 검토필요 룰 보강 + 상세내용 호칭 룰 추가"
 }
