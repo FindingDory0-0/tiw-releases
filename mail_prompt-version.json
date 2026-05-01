@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "publishedAt": "2026-05-01T02:50:00+09:00",
+  "version": "1.0.3",
+  "publishedAt": "2026-05-01T11:55:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/mail_prompt.txt",
-  "note": "자동 업데이트 동작 검증용 마이너 버전 (내용 변경 없음)"
+  "note": "[공지] 조건부 마감 룰은 유지하되 회의/행사 초대(시간+장소)는 TO/CC 무관 등록되도록 룰 다듬음. 1.0.2의 다수 수신 → false 가이드가 회의 초대까지 막던 문제 수정."
 }
