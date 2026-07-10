@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "publishedAt": "2026-05-02T00:00:00+09:00",
+  "version": "2.0.0",
+  "publishedAt": "2026-07-10T00:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/chat_vacation_prompt.txt",
-  "note": "휴가 신청 챗봇 프롬프트 (연차 계열, validate-first, DRY-RUN)"
+  "note": "휴가 신청 챗봇 프롬프트 v2 — 시간제 휴가 정책 반영(연차휴가(시간) 도입, 반차/반반차 폐지, 하루 2시간 본인전결)"
 }
