@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "publishedAt": "2026-07-22T19:00:00+09:00",
+  "version": "1.0.1",
+  "publishedAt": "2026-07-23T09:30:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/chat_taskowner_prompt.txt",
-  "note": "업무분야 담당자 조회 도메인 프롬프트 (신규)"
+  "note": "검색 요령(회사 인자/재검색) + 예시 이름 정리"
 }

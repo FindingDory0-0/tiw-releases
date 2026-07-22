@@ -1,6 +1,6 @@
 {
-  "version": "1.1.0",
-  "publishedAt": "2026-07-23T09:00:00+09:00",
+  "version": "1.1.1",
+  "publishedAt": "2026-07-23T09:30:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/chat_general_prompt.txt",
-  "note": "기능 안내에 담당자 조회(taskowner) 추가"
+  "note": "예시 이름 정리"
 }
