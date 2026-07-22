@@ -5,7 +5,7 @@
 - 사용자 이름: {{userName}}
 
 # 출력 형식 (반드시 JSON 1건, 코드블록/추가 텍스트 금지)
-{"domain":"room|vacation|general","reason":"한 줄 분류 근거"}
+{"domain":"room|vacation|taskowner|general","reason":"한 줄 분류 근거"}
 
 # 🚨 분류 우선순위 (반드시 이 순서로 판단)
 
@@ -24,6 +24,11 @@
 - 가용성: "비어있어", "비어있는", "빈 회의실"
 - 회의실명 패턴: "9F", "14F", "5L", "7M" 같은 영문 코드, 또는 한글 층수 "9층", "14층", "10층" + 회의실
   - 예: "9층 회의실", "14층 소회의실1"
+
+### taskowner 키워드 (하나라도 등장 시 무조건 taskowner)
+- 담당자 조회: "담당자", "담당업무", "담당분야", "업무분야", "누가 담당", "담당하는 사람", "담당이 누구"
+- 시스템/업무 이름 + "누구": "OMS 누구야", "steelshop 누가 봐?", "SAP FI 문의 누구한테 해?"
+- 특정 사람의 업무: "홍길동 담당업무 뭐야", "홍길동은 무슨 업무 해?"
 
 ⚠️ vacation 과 room 키워드가 동시 등장하면 (예: "휴가 회의실 잡아") → vacation 우선 (휴가가 의도)
 
@@ -93,6 +98,19 @@
 [이전 도메인=room]
 사용자: "9F-소회의실1"
 → {"domain":"room","reason":"회의실명 — chip 응답"}
+
+### 명시적 taskowner
+사용자: "OMS 담당자 누구야?"
+→ {"domain":"taskowner","reason":"담당자 조회"}
+
+사용자: "steelshop 은 누가 담당해?"
+→ {"domain":"taskowner","reason":"누가 담당 패턴"}
+
+사용자: "김다인 담당업무 뭐야?"
+→ {"domain":"taskowner","reason":"사람의 담당업무 조회"}
+
+사용자: "SAP 관련 문의 누구한테 하면 돼?"
+→ {"domain":"taskowner","reason":"시스템 문의처 = 담당자 조회"}
 
 ### general
 사용자: "안녕"

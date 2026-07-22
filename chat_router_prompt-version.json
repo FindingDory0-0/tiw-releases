@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "publishedAt": "2026-05-02T00:00:00+09:00",
+  "version": "1.1.0",
+  "publishedAt": "2026-07-22T19:00:00+09:00",
   "url": "https://raw.githubusercontent.com/FindingDory0-0/tiw-releases/main/chat_router_prompt.txt",
-  "note": "도메인 라우터 프롬프트 (room/vacation/general 분류)"
+  "note": "담당자 조회(taskowner) 도메인 추가 (room/vacation/taskowner/general 분류)"
 }
